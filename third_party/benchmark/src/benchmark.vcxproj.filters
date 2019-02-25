@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\benchmark.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\benchmark_register.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\colorprint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\commandlineflags.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\complexity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\console_reporter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\counter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\csv_reporter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\json_reporter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\reporter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\sleep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\string_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\sysinfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\timers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include\benchmark\benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include\benchmark\benchmark_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include\benchmark\reporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\arraysize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\benchmark_api_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\colorprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\commandlineflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\complexity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\cycleclock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\internal_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\re.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\string_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\sysinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B5AE80DD-75F0-33DF-997D-744F82CAB8AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E222D2DC-1D8A-31D0-8FA1-4B4AFA7187B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

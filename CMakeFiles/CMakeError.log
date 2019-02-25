@@ -1,0 +1,2415 @@
+Determining size of off64_t failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dc321.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:46。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_dc321.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_dc321.dir\Debug\cmTC_dc321.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_dc321.dir\Debug\cmTC_dc321.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc321.dir\Debug\\" /Fd"cmTC_dc321.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc321.dir\Debug\\" /Fd"cmTC_dc321.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  
+  OFF64_T.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dc321.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.70
+
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5088a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:47。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5088a.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5088a.dir\Debug\cmTC_5088a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5088a.dir\Debug\cmTC_5088a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5088a.dir\Debug\\" /Fd"cmTC_5088a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5088a.dir\Debug\\" /Fd"cmTC_5088a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_5088a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_5088a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_5088a.lib" /MACHINE:X64  /machine:x64 cmTC_5088a.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，该符号在函数 main 中被引用 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_5088a.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，该符号在函数 main 中被引用 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_5088a.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5088a.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:01.00
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ec182.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:48。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ec182.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ec182.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ec182.dir\Debug\cmTC_ec182.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ec182.dir\Debug\cmTC_ec182.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec182.dir\Debug\\" /Fd"cmTC_ec182.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec182.dir\Debug\\" /Fd"cmTC_ec182.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ec182.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ec182.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ec182.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ec182.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.74
+
+
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d4b72.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:49。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d4b72.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d4b72.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d4b72.dir\Debug\cmTC_d4b72.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d4b72.dir\Debug\cmTC_d4b72.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4b72.dir\Debug\\" /Fd"cmTC_d4b72.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4b72.dir\Debug\\" /Fd"cmTC_d4b72.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_d4b72.exe" /INCREMENTAL /NOLOGO resolv.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_d4b72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_d4b72.lib" /MACHINE:X64  /machine:x64 cmTC_d4b72.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 无法打开文件“resolv.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d4b72.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d4b72.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d4b72.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : fatal error LNK1104: 无法打开文件“resolv.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d4b72.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.85
+
+
+Determining if the function gethostbyname exists in the nsl failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_27d98.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:50。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_27d98.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_27d98.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_27d98.dir\Debug\cmTC_27d98.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_27d98.dir\Debug\cmTC_27d98.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d98.dir\Debug\\" /Fd"cmTC_27d98.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d98.dir\Debug\\" /Fd"cmTC_27d98.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_27d98.exe" /INCREMENTAL /NOLOGO nsl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_27d98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_27d98.lib" /MACHINE:X64  /machine:x64 cmTC_27d98.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 无法打开文件“nsl.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_27d98.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_27d98.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_27d98.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : fatal error LNK1104: 无法打开文件“nsl.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_27d98.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.87
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cdfe6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:52。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cdfe6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cdfe6.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cdfe6.dir\Debug\cmTC_cdfe6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cdfe6.dir\Debug\cmTC_cdfe6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdfe6.dir\Debug\\" /Fd"cmTC_cdfe6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdfe6.dir\Debug\\" /Fd"cmTC_cdfe6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_cdfe6.exe" /INCREMENTAL /NOLOGO socket.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_cdfe6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_cdfe6.lib" /MACHINE:X64  /machine:x64 cmTC_cdfe6.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 无法打开文件“socket.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cdfe6.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cdfe6.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cdfe6.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : fatal error LNK1104: 无法打开文件“socket.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cdfe6.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.86
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a9ec6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:53。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a9ec6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a9ec6.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a9ec6.dir\Debug\cmTC_a9ec6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a9ec6.dir\Debug\cmTC_a9ec6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9ec6.dir\Debug\\" /Fd"cmTC_a9ec6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9ec6.dir\Debug\\" /Fd"cmTC_a9ec6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_a9ec6.exe" /INCREMENTAL /NOLOGO rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_a9ec6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_a9ec6.lib" /MACHINE:X64  /machine:x64 cmTC_a9ec6.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 无法打开文件“rt.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a9ec6.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a9ec6.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a9ec6.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : fatal error LNK1104: 无法打开文件“rt.lib” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a9ec6.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.84
+
+
+Determining if files sys/socket.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ab5f3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:54。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ab5f3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ab5f3.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ab5f3.dir\Debug\cmTC_ab5f3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ab5f3.dir\Debug\cmTC_ab5f3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab5f3.dir\Debug\\" /Fd"cmTC_ab5f3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab5f3.dir\Debug\\" /Fd"cmTC_ab5f3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c"
+  
+  HAVE_SYS_SOCKET_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c(2): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ab5f3.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ab5f3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ab5f3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c(2): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ab5f3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <sys/socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files arpa/inet.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b5222.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:55。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b5222.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b5222.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b5222.dir\Debug\cmTC_b5222.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b5222.dir\Debug\cmTC_b5222.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5222.dir\Debug\\" /Fd"cmTC_b5222.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5222.dir\Debug\\" /Fd"cmTC_b5222.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c"
+  
+  HAVE_ARPA_INET_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/inet.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b5222.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b5222.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b5222.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/inet.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b5222.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+Source:
+/* */
+#include <arpa/inet.h>
+
+
+int main(void){return 0;}
+
+Determining if files arpa/nameser_compat.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d3bb1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:56。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d3bb1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d3bb1.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d3bb1.dir\Debug\cmTC_d3bb1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d3bb1.dir\Debug\cmTC_d3bb1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3bb1.dir\Debug\\" /Fd"cmTC_d3bb1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3bb1.dir\Debug\\" /Fd"cmTC_d3bb1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c"
+  
+  HAVE_ARPA_NAMESER_COMPAT_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/nameser_compat.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d3bb1.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d3bb1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d3bb1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/nameser_compat.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_d3bb1.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <arpa/nameser_compat.h>
+
+
+int main(void){return 0;}
+
+Determining if files arpa/nameser.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e78e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:22:57。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e78e2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e78e2.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e78e2.dir\Debug\cmTC_e78e2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e78e2.dir\Debug\cmTC_e78e2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e78e2.dir\Debug\\" /Fd"cmTC_e78e2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e78e2.dir\Debug\\" /Fd"cmTC_e78e2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c"
+  
+  HAVE_ARPA_NAMESER_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/nameser.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e78e2.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e78e2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e78e2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c(2): fatal error C1083: 无法打开包括文件: “arpa/nameser.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e78e2.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <arpa/nameser.h>
+
+
+int main(void){return 0;}
+
+Determining if files netdb.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21686.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:09。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_21686.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_21686.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_21686.dir\Debug\cmTC_21686.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_21686.dir\Debug\cmTC_21686.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21686.dir\Debug\\" /Fd"cmTC_21686.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21686.dir\Debug\\" /Fd"cmTC_21686.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c"
+  
+  HAVE_NETDB_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c(2): fatal error C1083: 无法打开包括文件: “netdb.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_21686.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_21686.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_21686.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c(2): fatal error C1083: 无法打开包括文件: “netdb.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_21686.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+Source:
+/* */
+#include <netdb.h>
+
+
+int main(void){return 0;}
+
+Determining if files netinet/in.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a1e86.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:10。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a1e86.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a1e86.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a1e86.dir\Debug\cmTC_a1e86.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a1e86.dir\Debug\cmTC_a1e86.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1e86.dir\Debug\\" /Fd"cmTC_a1e86.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1e86.dir\Debug\\" /Fd"cmTC_a1e86.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c"
+  
+  HAVE_NETINET_IN_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c(2): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a1e86.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a1e86.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a1e86.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c(2): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a1e86.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <netinet/in.h>
+
+
+int main(void){return 0;}
+
+Determining if files netinet/tcp.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_04366.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:11。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_04366.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_04366.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_04366.dir\Debug\cmTC_04366.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_04366.dir\Debug\cmTC_04366.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04366.dir\Debug\\" /Fd"cmTC_04366.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04366.dir\Debug\\" /Fd"cmTC_04366.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c"
+  
+  HAVE_NETINET_TCP_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(2): fatal error C1083: 无法打开包括文件: “netinet/tcp.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_04366.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_04366.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_04366.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(2): fatal error C1083: 无法打开包括文件: “netinet/tcp.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_04366.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.70
+
+Source:
+/* */
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if files net/if.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_96125.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:12。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_96125.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_96125.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_96125.dir\Debug\cmTC_96125.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_96125.dir\Debug\cmTC_96125.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96125.dir\Debug\\" /Fd"cmTC_96125.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96125.dir\Debug\\" /Fd"cmTC_96125.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c"
+  
+  HAVE_NET_IF_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c(2): fatal error C1083: 无法打开包括文件: “net/if.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_96125.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_96125.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_96125.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c(2): fatal error C1083: 无法打开包括文件: “net/if.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_96125.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <net/if.h>
+
+
+int main(void){return 0;}
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6185c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:15。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6185c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6185c.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6185c.dir\Debug\cmTC_6185c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6185c.dir\Debug\cmTC_6185c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6185c.dir\Debug\\" /Fd"cmTC_6185c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6185c.dir\Debug\\" /Fd"cmTC_6185c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c"
+  
+  HAVE_SOCKET_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c(2): fatal error C1083: 无法打开包括文件: “socket.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6185c.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6185c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6185c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c(2): fatal error C1083: 无法打开包括文件: “socket.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6185c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.74
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2f570.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:19。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_2f570.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2f570.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2f570.dir\Debug\cmTC_2f570.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2f570.dir\Debug\cmTC_2f570.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f570.dir\Debug\\" /Fd"cmTC_2f570.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f570.dir\Debug\\" /Fd"cmTC_2f570.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+  
+  HAVE_STRINGS_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_2f570.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_2f570.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_2f570.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_2f570.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.71
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files stropts.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3353e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:21。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3353e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3353e.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3353e.dir\Debug\cmTC_3353e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3353e.dir\Debug\cmTC_3353e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3353e.dir\Debug\\" /Fd"cmTC_3353e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3353e.dir\Debug\\" /Fd"cmTC_3353e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c"
+  
+  HAVE_STROPTS_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(2): fatal error C1083: 无法打开包括文件: “stropts.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3353e.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3353e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3353e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(2): fatal error C1083: 无法打开包括文件: “stropts.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3353e.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+Source:
+/* */
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_89df1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:22。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_89df1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_89df1.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_89df1.dir\Debug\cmTC_89df1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_89df1.dir\Debug\cmTC_89df1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89df1.dir\Debug\\" /Fd"cmTC_89df1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89df1.dir\Debug\\" /Fd"cmTC_89df1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+  
+  HAVE_SYS_IOCTL_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_89df1.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_89df1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_89df1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_89df1.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_53287.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:23。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_53287.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_53287.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_53287.dir\Debug\cmTC_53287.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_53287.dir\Debug\cmTC_53287.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53287.dir\Debug\\" /Fd"cmTC_53287.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53287.dir\Debug\\" /Fd"cmTC_53287.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c"
+  
+  HAVE_SYS_PARAM_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_53287.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_53287.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_53287.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_53287.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.70
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/select.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_91ca7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:25。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_91ca7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_91ca7.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_91ca7.dir\Debug\cmTC_91ca7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_91ca7.dir\Debug\cmTC_91ca7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91ca7.dir\Debug\\" /Fd"cmTC_91ca7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91ca7.dir\Debug\\" /Fd"cmTC_91ca7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c"
+  
+  HAVE_SYS_SELECT_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c(2): fatal error C1083: 无法打开包括文件: “sys/select.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_91ca7.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_91ca7.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_91ca7.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c(2): fatal error C1083: 无法打开包括文件: “sys/select.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_91ca7.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.70
+
+Source:
+/* */
+#include <sys/select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f98f8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:27。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_f98f8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f98f8.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f98f8.dir\Debug\cmTC_f98f8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f98f8.dir\Debug\cmTC_f98f8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f98f8.dir\Debug\\" /Fd"cmTC_f98f8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f98f8.dir\Debug\\" /Fd"cmTC_f98f8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c"
+  
+  HAVE_SYS_TIME_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_f98f8.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_f98f8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_f98f8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_f98f8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.68
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/uio.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a5ed3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:28。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a5ed3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a5ed3.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a5ed3.dir\Debug\cmTC_a5ed3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a5ed3.dir\Debug\cmTC_a5ed3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5ed3.dir\Debug\\" /Fd"cmTC_a5ed3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5ed3.dir\Debug\\" /Fd"cmTC_a5ed3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c"
+  
+  HAVE_SYS_UIO_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(2): fatal error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a5ed3.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a5ed3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a5ed3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(2): fatal error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_a5ed3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.70
+
+Source:
+/* */
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_50b9f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:31。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_50b9f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_50b9f.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_50b9f.dir\Debug\cmTC_50b9f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_50b9f.dir\Debug\cmTC_50b9f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50b9f.dir\Debug\\" /Fd"cmTC_50b9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50b9f.dir\Debug\\" /Fd"cmTC_50b9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+  
+  HAVE_DLFCN_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_50b9f.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_50b9f.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_50b9f.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_50b9f.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9903e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:32。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_9903e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9903e.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9903e.dir\Debug\cmTC_9903e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9903e.dir\Debug\cmTC_9903e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9903e.dir\Debug\\" /Fd"cmTC_9903e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9903e.dir\Debug\\" /Fd"cmTC_9903e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  
+  HAVE_UNISTD_H.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_9903e.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_9903e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_9903e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_9903e.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.73
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_SSIZE_T failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e09a0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:23:46。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e09a0.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e09a0.dir\Debug\cmTC_e09a0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e09a0.dir\Debug\cmTC_e09a0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SSIZE_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e09a0.dir\Debug\\" /Fd"cmTC_e09a0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SSIZE_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e09a0.dir\Debug\\" /Fd"cmTC_e09a0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2065: “ssize_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2146: 语法错误: 缺少“;”(在标识符“var_exists”的前面) [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2065: “var_exists”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2065: “ssize_t”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2146: 语法错误: 缺少“;”(在标识符“var_exists”的前面) [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.c(16): error C2065: “var_exists”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e09a0.vcxproj]
+
+    0 个警告
+    3 个错误
+
+已用时间 00:00:00.98
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <winsock2.h>
+		#include <ws2tcpip.h>
+		#include <windows.h>
+		int main() {
+			ssize_t var_exists;
+			return 0;
+		}
+	
+Determining if the O_NONBLOCK exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6f982.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:02。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6f982.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6f982.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6f982.dir\Debug\cmTC_6f982.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6f982.dir\Debug\cmTC_6f982.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f982.dir\Debug\\" /Fd"cmTC_6f982.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f982.dir\Debug\\" /Fd"cmTC_6f982.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “O_NONBLOCK”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6f982.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6f982.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6f982.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “O_NONBLOCK”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_6f982.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.95
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5a1b3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:05。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5a1b3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5a1b3.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5a1b3.dir\Debug\cmTC_5a1b3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5a1b3.dir\Debug\cmTC_5a1b3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a1b3.dir\Debug\\" /Fd"cmTC_5a1b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a1b3.dir\Debug\\" /Fd"cmTC_5a1b3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “SIOCGIFADDR”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5a1b3.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5a1b3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5a1b3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “SIOCGIFADDR”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_5a1b3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.98
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MSG_NOSIGNAL exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e1551.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:06。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e1551.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e1551.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e1551.dir\Debug\cmTC_e1551.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e1551.dir\Debug\cmTC_e1551.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1551.dir\Debug\\" /Fd"cmTC_e1551.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1551.dir\Debug\\" /Fd"cmTC_e1551.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “MSG_NOSIGNAL”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e1551.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e1551.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e1551.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “MSG_NOSIGNAL”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_e1551.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0c3d8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:10。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_0c3d8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0c3d8.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0c3d8.dir\Debug\cmTC_0c3d8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0c3d8.dir\Debug\cmTC_0c3d8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c3d8.dir\Debug\\" /Fd"cmTC_0c3d8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c3d8.dir\Debug\\" /Fd"cmTC_0c3d8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “SO_NONBLOCK”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_0c3d8.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_0c3d8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_0c3d8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “SO_NONBLOCK”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_0c3d8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_25958.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:11。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_25958.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_25958.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_25958.dir\Debug\cmTC_25958.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_25958.dir\Debug\cmTC_25958.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25958.dir\Debug\\" /Fd"cmTC_25958.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25958.dir\Debug\\" /Fd"cmTC_25958.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “CLOCK_MONOTONIC”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_25958.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_25958.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_25958.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “CLOCK_MONOTONIC”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_25958.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ca2b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:16。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ca2b2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ca2b2.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ca2b2.dir\Debug\cmTC_ca2b2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ca2b2.dir\Debug\cmTC_ca2b2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca2b2.dir\Debug\\" /Fd"cmTC_ca2b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca2b2.dir\Debug\\" /Fd"cmTC_ca2b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “bitncmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ca2b2.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ca2b2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ca2b2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “bitncmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_ca2b2.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.99
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b40d6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:19。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b40d6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b40d6.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b40d6.dir\Debug\cmTC_b40d6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b40d6.dir\Debug\cmTC_b40d6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b40d6.dir\Debug\\" /Fd"cmTC_b40d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b40d6.dir\Debug\\" /Fd"cmTC_b40d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “CloseSocket”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b40d6.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b40d6.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b40d6.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “CloseSocket”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b40d6.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b8889.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:22。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b8889.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b8889.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b8889.dir\Debug\cmTC_b8889.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b8889.dir\Debug\cmTC_b8889.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8889.dir\Debug\\" /Fd"cmTC_b8889.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8889.dir\Debug\\" /Fd"cmTC_b8889.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “fcntl”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b8889.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b8889.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b8889.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “fcntl”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b8889.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.95
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_77c7a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:35。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_77c7a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_77c7a.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_77c7a.dir\Debug\cmTC_77c7a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_77c7a.dir\Debug\cmTC_77c7a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77c7a.dir\Debug\\" /Fd"cmTC_77c7a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77c7a.dir\Debug\\" /Fd"cmTC_77c7a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “getservbyport_r”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_77c7a.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_77c7a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_77c7a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “getservbyport_r”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_77c7a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.98
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dfba8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:37。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dfba8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_dfba8.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_dfba8.dir\Debug\cmTC_dfba8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_dfba8.dir\Debug\cmTC_dfba8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfba8.dir\Debug\\" /Fd"cmTC_dfba8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfba8.dir\Debug\\" /Fd"cmTC_dfba8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “gettimeofday”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dfba8.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dfba8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dfba8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “gettimeofday”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_dfba8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc5b8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:38。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cc5b8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc5b8.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc5b8.dir\Debug\cmTC_cc5b8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc5b8.dir\Debug\cmTC_cc5b8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc5b8.dir\Debug\\" /Fd"cmTC_cc5b8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc5b8.dir\Debug\\" /Fd"cmTC_cc5b8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “if_indextoname”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cc5b8.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cc5b8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cc5b8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “if_indextoname”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_cc5b8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b7e76.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:39。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b7e76.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b7e76.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b7e76.dir\Debug\cmTC_b7e76.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b7e76.dir\Debug\cmTC_b7e76.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7e76.dir\Debug\\" /Fd"cmTC_b7e76.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7e76.dir\Debug\\" /Fd"cmTC_b7e76.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “inet_net_pton”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b7e76.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b7e76.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b7e76.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “inet_net_pton”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_b7e76.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fda16.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:41。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_fda16.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fda16.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fda16.dir\Debug\cmTC_fda16.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fda16.dir\Debug\cmTC_fda16.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fda16.dir\Debug\\" /Fd"cmTC_fda16.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fda16.dir\Debug\\" /Fd"cmTC_fda16.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “ioctl”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_fda16.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_fda16.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_fda16.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “ioctl”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_fda16.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_12f5d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:44。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_12f5d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_12f5d.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_12f5d.dir\Debug\cmTC_12f5d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_12f5d.dir\Debug\cmTC_12f5d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12f5d.dir\Debug\\" /Fd"cmTC_12f5d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12f5d.dir\Debug\\" /Fd"cmTC_12f5d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “IoctlSocket”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_12f5d.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_12f5d.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_12f5d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “IoctlSocket”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_12f5d.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.95
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c5757.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:24:54。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c5757.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c5757.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c5757.dir\Debug\cmTC_c5757.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c5757.dir\Debug\cmTC_c5757.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5757.dir\Debug\\" /Fd"cmTC_c5757.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5757.dir\Debug\\" /Fd"cmTC_c5757.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strcasecmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c5757.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c5757.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c5757.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strcasecmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c5757.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.95
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_69758.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:01。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_69758.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_69758.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_69758.dir\Debug\cmTC_69758.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_69758.dir\Debug\cmTC_69758.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69758.dir\Debug\\" /Fd"cmTC_69758.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69758.dir\Debug\\" /Fd"cmTC_69758.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strncasecmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_69758.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_69758.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_69758.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strncasecmp”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_69758.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.96
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3c04c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:02。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3c04c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3c04c.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3c04c.dir\Debug\cmTC_3c04c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3c04c.dir\Debug\cmTC_3c04c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c04c.dir\Debug\\" /Fd"cmTC_3c04c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c04c.dir\Debug\\" /Fd"cmTC_3c04c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strncmpi”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3c04c.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3c04c.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3c04c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “strncmpi”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_3c04c.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.95
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7fc68.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:05。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_7fc68.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7fc68.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7fc68.dir\Debug\cmTC_7fc68.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7fc68.dir\Debug\cmTC_7fc68.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fc68.dir\Debug\\" /Fd"cmTC_7fc68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fc68.dir\Debug\\" /Fd"cmTC_7fc68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “writev”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_7fc68.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_7fc68.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_7fc68.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17): error C2065: “writev”: 未声明的标识符 [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_7fc68.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.98
+
+File D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <fcntl.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_970e1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:06。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_970e1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_970e1.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_970e1.dir\Debug\cmTC_970e1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_970e1.dir\Debug\cmTC_970e1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_970e1.dir\Debug\\" /Fd"cmTC_970e1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_970e1.dir\Debug\\" /Fd"cmTC_970e1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_970e1.vcxproj]
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_970e1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_970e1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_970e1.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.75
+
+
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c8003.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:19。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c8003.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c8003.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c8003.dir\Debug\cmTC_c8003.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c8003.dir\Debug\cmTC_c8003.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_O3_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c8003.dir\Debug\\" /Fd"cmTC_c8003.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -O3 "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_O3_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c8003.dir\Debug\\" /Fd"cmTC_c8003.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -O3 "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.cxx"
+  
+cl : 命令行 warning D9002: 忽略未知选项“-O3” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c8003.vcxproj]
+  src.cxx
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_c8003.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_c8003.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_c8003.lib" /MACHINE:X64  /machine:x64 cmTC_c8003.dir\Debug\src.obj
+  cmTC_c8003.vcxproj -> D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_c8003.exe
+  cmTC_c8003.vcxproj -> D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_c8003.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c8003.dir\Debug\cmTC_c8003.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c8003.dir\Debug\cmTC_c8003.tlog\cmTC_c8003.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c8003.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c8003.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-O3” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_c8003.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.14
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_CXX03_FLAG failed with the following output:
+Change Dir: D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_00dd3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/12/8 11:25:21。
+节点 1 上的项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_00dd3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_00dd3.dir\Debug\”。
+  正在创建目录“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_00dd3.dir\Debug\cmTC_00dd3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_00dd3.dir\Debug\cmTC_00dd3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_CXX03_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00dd3.dir\Debug\\" /Fd"cmTC_00dd3.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -std=c++03 "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_CXX03_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00dd3.dir\Debug\\" /Fd"cmTC_00dd3.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -std=c++03 "D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\src.cxx"
+  
+cl : 命令行 warning D9002: 忽略未知选项“-std=c++03” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_00dd3.vcxproj]
+  src.cxx
+Link:
+  D:\vs2015\Microsoft Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_00dd3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_00dd3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_00dd3.lib" /MACHINE:X64  /machine:x64 cmTC_00dd3.dir\Debug\src.obj
+  cmTC_00dd3.vcxproj -> D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\Debug\cmTC_00dd3.exe
+  cmTC_00dd3.vcxproj -> D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/CMakeTmp/Debug/cmTC_00dd3.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_00dd3.dir\Debug\cmTC_00dd3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_00dd3.dir\Debug\cmTC_00dd3.tlog\cmTC_00dd3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_00dd3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_00dd3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c++03” [D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\CMakeTmp\cmTC_00dd3.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+Source file was:
+int main() { return 0; }

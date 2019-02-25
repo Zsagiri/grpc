@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/CMakeDependentOption.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/CheckIncludeFile.c.in
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/CheckLibraryExists.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/CheckSymbolExists.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/FindPackageMessage.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/FindThreads.cmake
+D:/cmake-3.12.4-win64-x64/setup/share/cmake-3.12/Modules/GNUInstallDirs.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/CMakeLists.txt
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/extract_includes.bat.in
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/install.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/libprotobuf-lite.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/libprotobuf.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/libprotoc.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf-config-version.cmake.in
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf-config.cmake.in
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf-lite.pc.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf-module.cmake.in
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf-options.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protobuf.pc.cmake
+D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/protobuf/cmake/protoc.cmake

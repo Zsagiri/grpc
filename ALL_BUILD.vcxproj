@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19C28958-0AE1-3EF4-962F-ABA5AA1E4CA7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompilerABI.c;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystem.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.c;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.cxx;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\address_sorting.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\benchmark.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\cares.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfig.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfigVersion.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gflags.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\msvc_static_runtime.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\protobuf.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\ssl.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\zlib.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompilerABI.c;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystem.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.c;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.cxx;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\address_sorting.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\benchmark.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\cares.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfig.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfigVersion.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gflags.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\msvc_static_runtime.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\protobuf.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\ssl.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\zlib.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompilerABI.c;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystem.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.c;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.cxx;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\address_sorting.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\benchmark.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\cares.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfig.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfigVersion.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gflags.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\msvc_static_runtime.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\protobuf.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\ssl.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\zlib.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCCompilerABI.c;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystem.cmake.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.c;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\feature_tests.cxx;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\address_sorting.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\benchmark.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\cares.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfig.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gRPCConfigVersion.cmake.in;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\gflags.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\msvc_static_runtime.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\protobuf.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\ssl.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\cmake\zlib.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\ZERO_CHECK.vcxproj">
+      <Project>{6BE3B9C0-423D-3ABC-874C-67BA5798F692}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\cares\cares\acountry.vcxproj">
+      <Project>{60163BF4-5077-383F-AD77-D58A12272851}</Project>
+      <Name>acountry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\address_sorting.vcxproj">
+      <Project>{5D02BE2B-42F7-35DF-889C-3E709683405B}</Project>
+      <Name>address_sorting</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\cares\cares\adig.vcxproj">
+      <Project>{0EF3716C-7445-3D64-A120-1DE8FE1CB33C}</Project>
+      <Name>adig</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\cares\cares\ahost.vcxproj">
+      <Project>{B5B0554D-A3A3-3C2F-8EB1-1FF160D028E8}</Project>
+      <Name>ahost</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\basic_test.vcxproj">
+      <Project>{43639BA1-456F-3704-8C94-7D4B0B091D77}</Project>
+      <Name>basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\benchmark.vcxproj">
+      <Project>{054DA2BC-B837-37A5-9AD8-8FCC2E1D6268}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\benchmark_test.vcxproj">
+      <Project>{0C0028F1-9CD5-3741-B7EF-D5CD4F646CED}</Project>
+      <Name>benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\cares\cares\c-ares.vcxproj">
+      <Project>{90BEDB00-84D5-3FEE-A23A-10507A202D7B}</Project>
+      <Name>c-ares</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\check_epollexclusive.vcxproj">
+      <Project>{D0F3A798-A8E9-3BA4-8252-F6416B2D7223}</Project>
+      <Name>check_epollexclusive</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\complexity_test.vcxproj">
+      <Project>{A53E96C8-64E1-31AE-9DF3-3CADC9086660}</Project>
+      <Name>complexity_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\diagnostics_test.vcxproj">
+      <Project>{75FB4FBC-1F6A-3CD2-8BE0-7D1F8AF676B8}</Project>
+      <Name>diagnostics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\donotoptimize_test.vcxproj">
+      <Project>{69B377BC-ADEB-34B6-A7F3-0E0FF7378583}</Project>
+      <Name>donotoptimize_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib\example.vcxproj">
+      <Project>{4C3A4794-DAA7-3725-9A58-B406B3FC5CC8}</Project>
+      <Name>example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\filter_test.vcxproj">
+      <Project>{5A470C60-DDAF-3817-9442-26AF436BEA55}</Project>
+      <Name>filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\fixture_test.vcxproj">
+      <Project>{0BC9A8F9-52F2-3E58-89CE-89B0CE3F7B06}</Project>
+      <Name>fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gen_hpack_tables.vcxproj">
+      <Project>{09B5FBAC-85E9-35B5-AE7C-A1CD167BE023}</Project>
+      <Name>gen_hpack_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gen_legal_metadata_characters.vcxproj">
+      <Project>{90FF0B73-2F2F-332A-B6B8-2509EC750552}</Project>
+      <Name>gen_legal_metadata_characters</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gen_percent_encoding_tables.vcxproj">
+      <Project>{14DB3CF8-74F3-3B86-9B3B-3040C070F200}</Project>
+      <Name>gen_percent_encoding_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\gflags\gflags_nothreads_static.vcxproj">
+      <Project>{ED7DF26D-D405-3268-A23F-D043C1272F3B}</Project>
+      <Name>gflags_nothreads_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\gflags\gflags_static.vcxproj">
+      <Project>{3C71E8BE-FBA3-36D1-AF1B-D77628124A0A}</Project>
+      <Name>gflags_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gpr.vcxproj">
+      <Project>{DEE6AC81-FF93-3F9B-B51A-C73677F4B041}</Project>
+      <Name>gpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc.vcxproj">
+      <Project>{870C57CF-421B-3976-A7DB-3B2A8EFF054A}</Project>
+      <Name>grpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc++.vcxproj">
+      <Project>{165C7DF9-637F-3A35-869E-483AB4DE811F}</Project>
+      <Name>grpc++</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc++_cronet.vcxproj">
+      <Project>{B88B7703-F21B-3472-958C-D9E797C5A3E1}</Project>
+      <Name>grpc++_cronet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc++_error_details.vcxproj">
+      <Project>{25121161-8684-383E-B405-4CEB02B7FB0B}</Project>
+      <Name>grpc++_error_details</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc++_reflection.vcxproj">
+      <Project>{A6B580C3-F338-3B26-A007-D2178CBB9306}</Project>
+      <Name>grpc++_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc++_unsecure.vcxproj">
+      <Project>{DD0F6941-1EF9-3B69-B64F-A2A2F5D4736B}</Project>
+      <Name>grpc++_unsecure</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_cpp_plugin.vcxproj">
+      <Project>{9459D83C-D23F-3586-B409-6EFADFD279A0}</Project>
+      <Name>grpc_cpp_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_create_jwt.vcxproj">
+      <Project>{8DFB0CCD-0996-3246-9734-409E3A24DD40}</Project>
+      <Name>grpc_create_jwt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_cronet.vcxproj">
+      <Project>{CF1E5D63-B40A-38D0-91DB-31F9986823BF}</Project>
+      <Name>grpc_cronet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_csharp_ext.vcxproj">
+      <Project>{DB151EA9-A635-3842-A709-E2FD650CCC73}</Project>
+      <Name>grpc_csharp_ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_csharp_plugin.vcxproj">
+      <Project>{985A2A1B-2948-38C9-8155-50DC731DE5A8}</Project>
+      <Name>grpc_csharp_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_node_plugin.vcxproj">
+      <Project>{BFD3321F-88C0-3B1A-9157-E9B5BBEB391C}</Project>
+      <Name>grpc_node_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_objective_c_plugin.vcxproj">
+      <Project>{820D6A88-0BD8-38AF-BD68-CA06495D287B}</Project>
+      <Name>grpc_objective_c_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_php_plugin.vcxproj">
+      <Project>{06504687-A874-34F7-906C-1A3A4F4092D1}</Project>
+      <Name>grpc_php_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_plugin_support.vcxproj">
+      <Project>{D798429E-14F2-39E6-9C37-CD8126BFA9B8}</Project>
+      <Name>grpc_plugin_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_print_google_default_creds_token.vcxproj">
+      <Project>{1081CD2B-DB97-317B-8D52-429A56470A42}</Project>
+      <Name>grpc_print_google_default_creds_token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_python_plugin.vcxproj">
+      <Project>{7AAF7819-A29D-318B-B2E1-6F18AB729768}</Project>
+      <Name>grpc_python_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_ruby_plugin.vcxproj">
+      <Project>{593E6AEB-8270-34EB-BE39-30C416501B37}</Project>
+      <Name>grpc_ruby_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_unsecure.vcxproj">
+      <Project>{131D1729-1701-31F6-90B8-91E81BB7C966}</Project>
+      <Name>grpc_unsecure</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\grpc_verify_jwt.vcxproj">
+      <Project>{16BDF767-F888-3FA2-BD0B-A70E86D3EEEA}</Project>
+      <Name>grpc_verify_jwt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\protobuf\js_embed.vcxproj">
+      <Project>{DD997F2A-5011-31C0-A160-57D1B969560C}</Project>
+      <Name>js_embed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj">
+      <Project>{8B5D4A8B-07EB-3D9A-BD1C-DB61A3E6FE68}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\protobuf\libprotobuf-lite.vcxproj">
+      <Project>{50C67E5D-F9ED-34AF-B25E-6BB8946CE460}</Project>
+      <Name>libprotobuf-lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\protobuf\libprotoc.vcxproj">
+      <Project>{F9A3AC18-A5A6-3902-B09B-4B62BE568743}</Project>
+      <Name>libprotoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\map_test.vcxproj">
+      <Project>{2BFB1C62-A2BA-33D0-8ED2-3164891DFBDD}</Project>
+      <Name>map_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib\minigzip.vcxproj">
+      <Project>{F9ACB50D-5F40-3273-B2EC-CE57473552E3}</Project>
+      <Name>minigzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\multiple_ranges_test.vcxproj">
+      <Project>{978529D0-AC65-3CE8-91A6-9652CA01F3A4}</Project>
+      <Name>multiple_ranges_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\options_test.vcxproj">
+      <Project>{0520FA09-CE2B-3402-B420-3AEC3074336B}</Project>
+      <Name>options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\output_test_helper.vcxproj">
+      <Project>{48386289-DF33-3143-B511-460785D949BB}</Project>
+      <Name>output_test_helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\protobuf\protoc.vcxproj">
+      <Project>{406A8721-3429-33E7-B5A1-FDF3A492B017}</Project>
+      <Name>protoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\register_benchmark_test.vcxproj">
+      <Project>{5FDB8936-103F-3D6E-A2F6-09465D853D24}</Project>
+      <Name>register_benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\reporter_output_test.vcxproj">
+      <Project>{ABF5C47F-8F6D-3AF0-9385-0343680ED3D8}</Project>
+      <Name>reporter_output_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\skip_with_error_test.vcxproj">
+      <Project>{1591D911-8E04-3EA7-9DA3-ECF14A2C9388}</Project>
+      <Name>skip_with_error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\user_counters_tabular_test.vcxproj">
+      <Project>{C605031F-E63D-3EF3-89C3-BB7ED3A204D9}</Project>
+      <Name>user_counters_tabular_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\user_counters_test.vcxproj">
+      <Project>{EF25F87A-BF15-3845-A0F0-91E426896245}</Project>
+      <Name>user_counters_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib\zlib.vcxproj">
+      <Project>{9E76D6C3-CEC8-3FA3-8BC9-66327F01194D}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib\zlibstatic.vcxproj">
+      <Project>{74B3A721-F625-3220-8307-2848A70B7008}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

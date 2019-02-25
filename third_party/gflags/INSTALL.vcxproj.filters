@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\a857322eea58c6b3cf336a43a46f38de\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C246C38-8B52-3332-B735-91BC059417FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

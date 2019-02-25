@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\src\cpp\ext\proto_server_reflection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\src\cpp\ext\proto_server_reflection_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gens\src\proto\grpc\reflection\v1alpha\reflection.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gens\src\proto\grpc\reflection\v1alpha\reflection.grpc.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gens\src\proto\grpc\reflection\v1alpha\reflection.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\gens\src\proto\grpc\reflection\v1alpha\reflection.grpc.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeFiles\aef8c536b984fec2baebc71fe89190e7\reflection.grpc.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C246C38-8B52-3332-B735-91BC059417FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B5AE80DD-75F0-33DF-997D-744F82CAB8AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E222D2DC-1D8A-31D0-8FA1-4B4AFA7187B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19C28958-0AE1-3EF4-962F-ABA5AA1E4CA7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\zlib;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckLibraryExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckSymbolExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindGit.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindThreads.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\CXXFeatureCheck.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\GetGitVersion.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\gnu_posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\std_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\steady_clock.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckLibraryExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckSymbolExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindGit.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindThreads.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\CXXFeatureCheck.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\GetGitVersion.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\gnu_posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\std_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\steady_clock.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckLibraryExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckSymbolExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindGit.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindThreads.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\CXXFeatureCheck.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\GetGitVersion.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\gnu_posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\std_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\steady_clock.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake-3.12.4-win64-x64\setup\bin\cmake.exe -HD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc -BD:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc --check-stamp-file D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/tensorflow/tensorflow-r1.8/tensorflow/contrib/cmake/build_release/grpc/src/grpc/third_party/benchmark/CMakeLists.txt;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckLibraryExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\CheckSymbolExists.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindGit.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\cmake-3.12.4-win64-x64\setup\share\cmake-3.12\Modules\FindThreads.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\CXXFeatureCheck.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\GetGitVersion.cmake;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\gnu_posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\posix_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\std_regex.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\cmake\steady_clock.cpp;D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\ZERO_CHECK.vcxproj">
+      <Project>{6BE3B9C0-423D-3ABC-874C-67BA5798F692}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\basic_test.vcxproj">
+      <Project>{43639BA1-456F-3704-8C94-7D4B0B091D77}</Project>
+      <Name>basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\src\benchmark.vcxproj">
+      <Project>{054DA2BC-B837-37A5-9AD8-8FCC2E1D6268}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\benchmark_test.vcxproj">
+      <Project>{0C0028F1-9CD5-3741-B7EF-D5CD4F646CED}</Project>
+      <Name>benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\complexity_test.vcxproj">
+      <Project>{A53E96C8-64E1-31AE-9DF3-3CADC9086660}</Project>
+      <Name>complexity_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\diagnostics_test.vcxproj">
+      <Project>{75FB4FBC-1F6A-3CD2-8BE0-7D1F8AF676B8}</Project>
+      <Name>diagnostics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\donotoptimize_test.vcxproj">
+      <Project>{69B377BC-ADEB-34B6-A7F3-0E0FF7378583}</Project>
+      <Name>donotoptimize_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\filter_test.vcxproj">
+      <Project>{5A470C60-DDAF-3817-9442-26AF436BEA55}</Project>
+      <Name>filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\fixture_test.vcxproj">
+      <Project>{0BC9A8F9-52F2-3E58-89CE-89B0CE3F7B06}</Project>
+      <Name>fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\map_test.vcxproj">
+      <Project>{2BFB1C62-A2BA-33D0-8ED2-3164891DFBDD}</Project>
+      <Name>map_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\multiple_ranges_test.vcxproj">
+      <Project>{978529D0-AC65-3CE8-91A6-9652CA01F3A4}</Project>
+      <Name>multiple_ranges_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\options_test.vcxproj">
+      <Project>{0520FA09-CE2B-3402-B420-3AEC3074336B}</Project>
+      <Name>options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\output_test_helper.vcxproj">
+      <Project>{48386289-DF33-3143-B511-460785D949BB}</Project>
+      <Name>output_test_helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\register_benchmark_test.vcxproj">
+      <Project>{5FDB8936-103F-3D6E-A2F6-09465D853D24}</Project>
+      <Name>register_benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\reporter_output_test.vcxproj">
+      <Project>{ABF5C47F-8F6D-3AF0-9385-0343680ED3D8}</Project>
+      <Name>reporter_output_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\skip_with_error_test.vcxproj">
+      <Project>{1591D911-8E04-3EA7-9DA3-ECF14A2C9388}</Project>
+      <Name>skip_with_error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\user_counters_tabular_test.vcxproj">
+      <Project>{C605031F-E63D-3EF3-89C3-BB7ED3A204D9}</Project>
+      <Name>user_counters_tabular_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\tensorflow\tensorflow-r1.8\tensorflow\contrib\cmake\build_release\grpc\src\grpc\third_party\benchmark\test\user_counters_test.vcxproj">
+      <Project>{EF25F87A-BF15-3845-A0F0-91E426896245}</Project>
+      <Name>user_counters_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
